@@ -13,8 +13,24 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    Carro.cpp \
+    Factura.cpp \
+    agregar.cpp \
+    gasolinera.cpp \
+    report.cpp \
+    tabla.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    Carro.h \
+    Factura.h \
+    agregar.h \
+    gasolinera.h \
+    report.h \
+    tabla.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    agregar.ui \
+    gasolinera.ui \
+    report.ui \
+    tabla.ui

@@ -1,21 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>Tabla</class>
- <widget name="Tabla" class="QWidget">
+ <widget class="QWidget" name="Tabla">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
+    <width>669</width>
     <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Reporte General</string>
   </property>
+  <widget class="QTableWidget" name="tabla">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>651</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Placa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Marca</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cilindraje</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Capacidad(L)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Facturas</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Km</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Litros</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Km/Litro</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Km/Galon</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Litros/Dia</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Gasto/Dia</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Gasto/Km</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Gasto Total</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reporte</string>
+   </property>
+  </widget>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>
